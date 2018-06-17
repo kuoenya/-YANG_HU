@@ -1,0 +1,143 @@
+.top{
+  width:1030px;
+  height:100px;
+  padding:10px;
+  float:cneter;
+  margin-right:10px;
+  margin-left:60px;
+  }
+.top_right{
+  display: block;
+  border: 1px solid blue; 
+  width: 175px;
+  height: 50px;
+  margin-left:900px;
+}
+ul{
+  font-size:16.5px;
+}
+.top_2{
+  width:956px;
+  height:50px;
+  padding:10px;
+  float:left;
+  margin-right:0px;
+  margin-left:65px;
+  }
+  .system{
+    float:right;
+    margin-top:30px;
+    margin-right:150px;
+    Font-size:40px;
+  }
+  .btn1_f {
+  width:105px;
+  height:100px;
+  padding:20px;
+  border:2px gray solid;
+  float:left;
+  margin-right:0px;
+  margin-left:60px;
+  }
+  .btn2_f {
+  width:115x;
+  height:100px;
+  padding:20px;
+  border:2px gray solid;
+  float:left;
+  }
+  .btn1{
+  background-color: #c8f7e8;
+  width: 50px; height:30px;
+
+  padding: 20px;
+  border-radius: 10px 10px 10px 10px;
+  }
+ 
+  .body1{
+  background-color: gray;
+  width: 900px; height:100px;
+  border: 5px solid gray;
+  padding: 25px;
+  border-radius: 10px 10px 10px 10px;
+  margin:0px 10px 10px 50px;}
+  .body2_left {
+  width:500px;
+  height:200px;
+  padding:20px;
+  border:2px green solid;
+  float:left;
+  margin-right:10px;
+  margin-left:60px;
+  }
+  .body2_right{
+  width:500px;
+  height:200px;
+  padding:20px;
+  border:2px red solid;
+  float:left;
+  }
+  .body2left{
+  background-color: gray;
+  width: 400px; height:100px;
+  border: 5px solid gray;
+  padding: 25px;
+  border-radius: 10px 10px 10px 10px;
+  margin:0px 10px 10px 50px;
+  }
+  .body2right{
+  background-color: gray;
+  width: 400px; height:100px;
+  border: 5px solid gray;
+  padding: 25px;
+  border-radius: 10px 10px 10px 10px;
+  margin:0px 10px 10px 0px;
+  }
+  .body4_frame{
+  width:1065px;
+  height:550px;
+  padding:10px;
+  float:left;
+  margin-right:10px;
+  margin-left:0px;}
+  .body4{
+  /*background-color: gray;*/
+  width: 1000px; height:550px;
+  padding:10px 10px 20px 70px;;
+  border-radius: 10px 10px 10px 10px;
+  margin:0px 0px 0px 0px;}
+  .footer_frame{
+  width:1050px;
+  height:10px
+  padding:9px;
+  float:left;
+  margin-right:10px;
+  margin-left:80px;}
+
+.f{
+   height:100px; width:1000px;
+}
+  .footer{
+  background-color: #87bedb;
+  width: 950px; height:100px;
+  padding: 1px;
+  border-radius: 10px 10px 10px 10px;
+  }
+.w1{
+  float:left;
+  margin-left:80px;
+  margin-top:20px;
+}
+  #map {
+    height: 480px;
+    width: 950px;
+   padding-right:1px;
+}
+.u{
+  font-family:Microsoft JhengHei;
+}
+
+
+
+
+
