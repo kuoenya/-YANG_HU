@@ -1,0 +1,138 @@
+
+<head>
+<link rel="stylesheet" type="text/css" href="z.css">
+<script type="text/javascript" src="u.js"></script> 
+<style>
+.a{
+  float:center;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #74acdb;
+  border-radius: 10px 10px 10px 10px;}
+li {
+    float: left;}
+li a, .dropbtn {
+    border-radius:20px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 34px;
+   /*!!!! 0617改這個let up btn center !!!!*/
+    padding-left: 40px;
+  /*改這個let up btn Narrower*/
+    text-decoration: none;}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #488cf9;}
+
+li.dropdown {
+    display: inline-block;}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;}
+.dropdown-content a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;}
+.dropdown-content a:hover {background-color: #cbeff2}
+.dropdown:hover .dropdown-content {
+    display: block;}
+</style>
+</head>
+<body>
+<div class="all">
+<div class="top">
+<img class="logo" src="http://oram.tycg.gov.tw/images/logo.png" alt="logo">   
+<h1 class="system">植栽巡查系統</h1> 
+<!-- class="top_right"> 
+登入人員 : 系統管理員
+單位名稱 : 桃園市養工處-->
+  </div>
+</div>
+<d class="top_2" text-align="center"> 
+<ul>
+  <li> <a href="http://oram.tycg.gov.tw" target="http://oram.tycg.gov.tw">首頁</a></li>
+   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">通報案件</a>
+    <div class="dropdown-content">
+      <a href="#">新增通報案例</a>
+      <a href="#">通報案例列表</a>
+
+    </div>
+  </li>
+   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">地圖定位</a>
+    <div class="dropdown-content">
+      <a href="#">行政區定位</a>
+      <a href="#">門牌定位</a>
+      <a href="#">座標定位</a>
+    </div>
+  </li>
+   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">巡查路線</a>
+    <div class="dropdown-content">
+      <a href="#">新增預定路線</a>
+      <a href="#">當日巡查路線</a>
+      <a href="#">巡查及預定路線</a>
+    </div>
+  </li>
+      <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">植栽查報</a>
+    <div class="dropdown-content">
+      <a href="#">巡查案件通報</a>
+      <a href="#">設定維護廠商</a>
+
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">機關通報</a>
+    <div class="dropdown-content">
+      <a href="#">植栽查報案件分派</a>
+      <a href="#">植栽查報案件功能</a>
+      <a href="#">歷史資料查詢</a>
+    </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">權限設定</a>
+    <div class="dropdown-content">
+      <a href="#">人員管理</a>
+      <a href="#">角色管理</a>
+      <a href="#">角色權限設定</a>
+    </div>
+  </li>
+</ul>
+</d>
+
+<d class="body4_frame">
+<div class="body4">
+   <div id="map">
+    <!-- Replace the value of the key parameter with your own API key. -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUHfjiaT4muKB6kepGcCp-ECnUX86aj2s&callback=initMap" style="float:left;"/></script>     
+  </div>
+     </div>   
+    </d>
+    <d class="footer_frame">
+    <div class="footer" text-align="right">
+    <div class="w1"> 
+桃園市桃園區三民路一段200號(三民運動公園遊客中心)
+      </br></br>
+TEL:總機:(03)3396122;傳真:(03)3398812
+      </div>
+    <div class="w1">
+民眾如有市政問題，歡迎多加利用1999專線洽詢
+      </br></br>
+2015 © Taoyuan City. All rights reserved </div>
+    </div>
+    </d>
+  </div> 
+</body>
+
